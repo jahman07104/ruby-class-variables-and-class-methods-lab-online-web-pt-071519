@@ -4,6 +4,7 @@ attr_accessor :name,:artist, :genre
  def initialize (name,artist,genre)
    @name = name
     @artist = artist
+<<<<<<< HEAD
     @genre = genre
     @@genres << genre
     @@artists << artist
@@ -38,4 +39,16 @@ attr_accessor :name,:artist, :genre
   def self.artists
     @@artists.uniq
   end
+=======
+    @@artists << artist
+    @genre = genre
+    @@genres << genre
+    @@count += 1
+
+  @@count = 0
+end
+   self.count 
+    @@count
+  end 
+>>>>>>> e224de5aaae332163d7b3d58ab62b0e42597d6ea
 end
